@@ -14,12 +14,12 @@
 
 <body>
     <nav class="navbar navbar-dark navbar-expand-lg fixed-top bg-white portfolio-navbar gradient">
-        <div class="container"><a class="navbar-brand logo" href="#"><strong>Shubham Raut</strong></a><button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navbarNav"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+        <div class="container"><a class="navbar-brand logo" href="#"><strong>Shubham Raut</strong></a><button
+                data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navbarNav"><span
+                    class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
-                    <li class="nav-item"><a class="nav-link" href="projects-grid-cards.html">Projects</a></li>
-                    <li class="nav-item"><a class="nav-link" href="cv.html">CV</a></li>
                     <li class="nav-item"><a class="nav-link active" href="contact.html">Contact</a></li>
                 </ul>
             </div>
@@ -31,22 +31,99 @@
                 <div class="heading">
                     <h2>Contact me</h2>
                 </div>
-                <form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/f/xqkjeokg" method="post">
-                    <div class="mb-3"><label class="form-label" for="name" name="name" required>Your Name</label><input class="form-control item" type="text" id="name"></div>
-                    <div class="mb-3"><label class="form-label" for="subject" name="subject">Subject</label><input class="form-control item" type="text" id="subject"></div>
-                    <div class="mb-3"><label class="form-label" for="email" name="Email" required>Email</label><input class="form-control item" type="email" id="email"></div>
-                    <div class="mb-3"><label class="form-label" for="message" name="Message">Message</label><textarea class="form-control item" id="message"></textarea></div>
-                    <div class="mb-3"><button class="btn btn-primary btn-lg d-block w-100" type="submit">Submit Form</button></div>
-                </form>
+
+
+                <form id="fs-frm" name="simple-contact-form" accept-charset="utf-8"
+                    action="https://formspree.io/f/xqkjeokg" method="post">
+                    <fieldset id="fs-frm-inputs">
+                        <div class="mb-3"> <label class="form-label" for="full-name">Full Name</label></div>
+                        <div class="mb-3"><input class="form-control item" type="text" name="name" id="full-name"
+                                required=""></div>
+
+
+
+                        <div class="mb-3"> <label class="form-label" for="Contact-no">Contact no</label></div>
+                        <div class="mb-3"><input class="form-control item" type="number" name="contact-no"
+                                id="Contact-no" required=""></div>
+
+
+                        <div class="mb-3"><label class="form-label" for="email-address">Email Address</label></div>
+                        <div class="mb-3"><input class="form-control item" type="email" name="_replyto"
+                                id="email-address" required=""></div>
+
+                        <div class="mb-3"> <label class="form-label" for="message">Message</label></div>
+                        <div class="mb-3"> <textarea class="form-control item" rows="5" name="message" id="message"
+                                placeholder="Enter your message" required=""></textarea></div>
+
+                        <div class="mb-3"> <input type="hidden" name="_subject" id="email-subject"
+                                value="Contact Form Submission"></div>
+                    </fieldset>
+                    <div class="mb-3"></div> <input class="btn btn-primary btn-lg d-block w-100" type="submit"
+                        value="Submit">
+            </div>
+            </form>
             </div>
         </section>
-    </main>
-    <footer class="page-footer">
-        <div class="container">
-            <div class="links"><a class="link-primary" href="#">About me</a><a href="#">Contact me</a><a href="#">Projects</a></div>
-            <div class="social-icons"><a href="#"><i class="icon ion-social-facebook" style="font-size: 19px;"></i></a><a href="#"><i class="icon ion-social-twitter"></i></a><a href="#"><i class="icon ion-social-linkedin"></i></a></div>
+
+        <div class="group">
+            <div class="row">
+
+                <div class="col-md-6">
+                    <div class="contact-info portfolio-info-card" id="contact">
+                        <h2>Contact Info</h2>
+                        <div class="row">
+                            <div class="col-1"><i class="icon ion-android-calendar icon"></i></div>
+                            <div class="col-9"><span>16/08/1999</span></div>
+                        </div>
+                        <div class="row">
+                            <div class="col-1"><i class="icon ion-person icon"></i></div>
+                            <div class="col-9"><span>Shubham Raut</span></div>
+                        </div>
+                        <div class="row">
+                            <div class="col-1"><i class="icon ion-ios-telephone icon"></i></div>
+                            <div class="col-9"><span>+91-9172040348</span></div>
+                        </div>
+                        <div class="row">
+                            <div class="col-1"><i class="icon ion-at icon"></i></div>
+                            <div class="col-9"><span>shubhamrao12321@gmail.com</span></div>
+                        </div>
+                        <div class="row">
+                            <div class="col-1"><i class="icon ion-location icon"></i></div>
+                            <div class="col-9"><span>Pune,Maharashtra,India</span></div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="skills portfolio-info-card">
+                        <h2>Profiles</h2>
+                        <div class="row">
+                            <div class="col-9"><span><a href="https://www.linkedin.com/in/shubhamraut1/">Linkdin
+                                        Profile</a></span></div>
+                        </div>
+                        <br>
+                        <div class="row">
+                            <div class="col-9"><span><a href="https://trailblazer.me/id/shubhamraut01">TrailHead
+                                        Profile</a></span></div>
+                        </div>
+                        <br>
+                        <div class="row">
+                            <div class="col-9"><span><a href="https://www.hackerrank.com/shubhamraut">HackerRank
+                                        Profile</a></span></div>
+                        </div>
+                        <br>
+                        <div class="row">
+                            <div class="col-9"><span><a href="https://github.com/Shubhamraut01">GitHub
+                                        Profile</a></span></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-    </footer>
+        </div>
+
+    </main>
+
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/pikaday/1.6.1/pikaday.min.js"></script>
     <script src="assets/js/theme.js"></script>
