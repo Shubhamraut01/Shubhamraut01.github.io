@@ -93,7 +93,7 @@
                 <div class="row">
                     <div class="col-lg-12">
                         <form id="fs-frm" name="simple-contact-form" accept-charset="utf-8"
-                            action="https://formspree.io/f/xqkjeokg" method="post" >
+                            action="https://formspree.io/f/xqkjeokg" method="post">
                             <fieldset id="fs-frm-inputs">
                                 <div class="mb-3"> <label class="form-label" for="full-name" style="color: white ;">Full
                                         Name</label></div>
@@ -120,19 +120,22 @@
 
                                 <div class="mb-3"> <input type="hidden" name="_subject" id="email-subject"
                                         value="Contact Form Submission"></div>
-
-                                        <div class="mb-3"><div class="g-recaptcha" data-sitekey="6LfHa0sjAAAAAKB8nNVpaWYJe7eUZ5Aj-LbZLucY"></div></div>
-
-                              
+<br>
+                                <div class="mb-3">
+                                    <div class="g-recaptcha" data-sitekey="6LfHa0sjAAAAAKB8nNVpaWYJe7eUZ5Aj-LbZLucY">
+                                    </div>
                                 </div>
-                            </fieldset>
-                            <div class="mb-3"> <input class="btn btn-primary btn-lg d-block w-50" type="submit"
-                                    value="Submit" style="color:#ffffff ; background-color:#ed31cd;"></div>
-                    </div>
-                    </form>
 
+<br>
+                    </div>
+                    </fieldset>
+                    <div class="mb-3"> <input class="btn btn-primary btn-lg d-block w-50" type="submit" value="Submit"
+                            style="color:#ffffff ; background-color:#ed31cd;"></div>
                 </div>
+                </form>
+
             </div>
+    </div>
     </div>
     </section>
 
@@ -208,14 +211,14 @@
             </div>
         </div>
     </footer>
-   <script>
-    window.onload = function() { 
-        var el = document.getElementById('g-recaptcha-response'); 
-        if (el) { 
-          el.setAttribute('required', 'required'); 
-        } 
-      }
-   </script>
+    <script>
+        window.onload = function () {
+            var el = document.getElementById('g-recaptcha-response');
+            if (el) {
+                el.setAttribute('required', 'required');
+            }
+        }
+    </script>
     <script src="https://www.google.com/recaptcha/api.js" async defer></script>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
     <script src="assets/js/agency.js"></script>
