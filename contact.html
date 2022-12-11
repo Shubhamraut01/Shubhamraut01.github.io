@@ -5,6 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     <title>contact - ShubhamRaut</title>
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
     <link rel="icon" type="image/x-icon" href="icon.png">
     <link rel="stylesheet" href="stylesheet.css">
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
@@ -124,7 +125,7 @@
                                         <div class="mb-3"> <label class="form-label" for="captcha"
                                             style="color: white ;">Captcha 💀 :</label></div>
                                 <div class="mb-3">
-                                    <div class="g-recaptcha" data-sitekey="6LeF9XAjAAAAAGdaHK92W44mdgZOdBNm4hn3UIdE">
+                                    <div class="g-recaptcha" data-sitekey="6Ldu-nAjAAAAAOqjkRac_kpd9FKnjw2FLGU39ml9"></div>
                                     </div>
                                 </div>
 
@@ -214,12 +215,11 @@
         </div>
     </footer>
     <script>
-        window.onload = function () {
-            var el = document.getElementById('g-recaptcha-response');
-            if (el) {
-                el.setAttribute('required', 'required');
-            }
+        function onSubmit(token) {
+          document.getElementById("demo-form").submit();
         }
+      </script>
+   
     </script>
     <script src="https://www.google.com/recaptcha/api.js" async defer></script>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
