@@ -1,3 +1,3 @@
 # ShubhamRaut
 
-this is my portfolio hostated at shubhamraut.me
+this is my portfolio hostated at https://shubhamraut.me
